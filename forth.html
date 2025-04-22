@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Selectors</title>
+    <style>
+        /* Universal selector */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Tag selectors */
+        h1 {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            border: 2px solid blue;
+            border-radius: 25px;
+            box-shadow: 100px;
+            margin-bottom: 20px;
+        }
+
+
+        p{
+           margin-top: 50 px;
+           text-align: left;
+           color: red;
+           font-size: 20;
+           font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        
+        /* Class selector */
+        .highlight {
+            background-color:#d9dedc;
+            font-weight: bold;
+        }
+
+        /* ID selector */
+        #special-div {
+            border: 2px solid #FF5733;
+            padding: 20px;
+            margin: 20px;
+            background-color: #FDEDEC;
+        }
+
+        /* Styling another class */
+        .box {
+            background-color: blue);
+            padding: 15px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+        .box p{
+            color: green;
+            background-color: #ebe9f3;
+            font-size: 20px;
+            padding: 15px;
+        }
+        #blog{
+            margin-top: 30px;
+            color: blue;
+            font-size: 20px;
+            padding: 15px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>My HTML document</h1>
+
+    <p class="highlight">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil tempora laborum nemo impedit id, dicta consequatur voluptatum illo molestias ad fugiat eius explicabo, sequi blanditiis? Odit quis dolor sint esse.</p>
+
+    <div id="special-div">
+        <h2>Special Section</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dolorem ducimus placeat culpa ex ratione voluptate enim recusandae earum atque ad quibusdam sequi, a repudiandae nemo, provident amet! Ullam, ea!.</p>
+    </div>
+
+    <div class="box">
+        <h3>Another Box</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, fuga autem ipsa adipisci totam saepe laboriosam aperiam deserunt quo error fugiat nisi ducimus eveniet illum beatae at nobis enim explicabo!
+        </p>
+        <span id="blog">highlighted</span>
+    </div>
+
+</body>
+</html>
